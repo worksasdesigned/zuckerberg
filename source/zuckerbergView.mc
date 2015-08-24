@@ -133,14 +133,18 @@ class zuckerbergView extends Ui.View {
                
 			   }
 }			            
-        
-    
     }
 
     //! Called when this View is removed from the screen. Save the
     //! state of this View here. This includes freeing resources from
     //! memory.
     function onHide() {
+        // Das hier einbauen? --> vivo active speichert anscheinend nicht ordentlich 
+
+        //Sys.println("tttest");
+         //var app = App.getApp();
+        // app.setProperty(KCAL_HIS, kcal_his);
+        // app.setProperty(COUNT_KEY, ncount);
     }
 
 function zdraw_suggar(dc,x,y,kcal_his, subtitle){
